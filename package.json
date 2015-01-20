@@ -1,0 +1,22 @@
+{
+  "name": "diff-dom",
+  "version": "1.0.0",
+  "description": "diff dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sikuli/diff-dom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sikuli/diff-dom/issues"
+  },
+  "homepage": "https://github.com/sikuli/diff-dom",
+  "dependencies": {
+    "cheerio": "^0.18.0"
+  }
+}
