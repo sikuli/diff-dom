@@ -1,0 +1,58 @@
+body {
+    font-family: Podkova, serif;
+    background-color: #e7e5e6;
+}
+
+.content-container {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 0 80px #afafaf;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    border: 6px double #AFAFAF;
+}
+
+.content-container h1 {
+    font-weight: 700;
+    color: #4e5a6a;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.content-container p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.content-container a {
+    color: rgb(121, 78, 56);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.content-container a:active, .content-container a:hover {
+    color: rgb(187, 102, 58);
+}
+
+.content-container ul {
+    list-style: none;
+    padding-left: 64px;
+    padding-right: 64px;
+    line-height: 24px;
+}
+
+.content-container li {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.youtube-container {
+    width: 420px;
+    margin: 0 auto;
+}
