@@ -8,4 +8,4 @@ var fs = require('fs')
 // dom.diff(html1, html2)
 // dom.pairedDiff(html1, html2)
 
-dom.newDiff(process.argv[2], process.argv[3], process.argv[4])
+dom.diff(process.argv[2], process.argv[3], process.argv[4])
