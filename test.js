@@ -2,10 +2,12 @@ var dom = require('./lib/diffdom')
 var fs = require('fs')
 
 // TODO: more robust command line parsing
-// var html1 = fs.readFileSync(process.argv[2], 'utf8')
-// var html2 = fs.readFileSync(process.argv[3], 'utf8')
+// It is an exercise left to the reader to determine how to ensure that
+// these function calls execute sequentially.
+dom.buildCssTree(process.argv[2], 'outa.txt');
+dom.buildCssTree(process.argv[3], 'outb.txt');
 
-// dom.diff(html1, html2)
-// dom.pairedDiff(html1, html2)
-
-dom.diff(process.argv[2], process.argv[3], process.argv[4], true)
+setTimeout(function() {
+	console.log('Comparing trees.')
+	dom.readFiles('outa.txt', 'outb.txt', process.argv[3], process.argv[4]);
+}, 15000);

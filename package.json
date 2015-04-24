@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sikuli/diff-dom",
   "dependencies": {
-    "cheerio": "^0.18.0"
+    "cheerio": "^0.18.0",
+    "phantomjs": "^1.9.16"
   }
 }
