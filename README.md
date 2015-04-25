@@ -4,7 +4,7 @@
 
 	$ npm install
 
-# Test
+# Run the basic test
 
 	$ node test.js
 
